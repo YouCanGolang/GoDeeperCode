@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"strings"
 	"unsafe"
 )
 
@@ -44,7 +43,6 @@ func main() {
 	gr := []rune(g)
 	gr[4] = '7'
 	fmt.Printf("修改后字符串: %s, 长度-> %d\n", string(gr), len(gr))
-	strings.Replace()
 }
 
 func printBinaryInt8(data int8) {
